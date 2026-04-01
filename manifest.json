@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "version": "1.1",
+  "name": "Dark Theme",
+  "description": "A sleek dark theme for Brave browser",
+  "theme": {
+    "colors": {
+      "frame": [30, 30, 30],
+      "frame_inactive": [30, 30, 30],
+      "frame_incognito": [30, 30, 30],
+      "frame_incognito_inactive": [30, 30, 30],
+      "toolbar": [55, 55, 55],
+      "tab_text": [220, 220, 220],
+      "tab_background_text": [150, 150, 150],
+      "bookmark_text": [200, 200, 200],
+      "ntp_background": [30, 30, 30],
+      "ntp_text": [220, 220, 220],
+      "omnibox_background": [30, 30, 30],
+      "omnibox_text": [220, 220, 220],
+      "toolbar_button_icon": [180, 180, 180],
+      "tab_background_text_inactive": [120, 120, 120]
+    },
+    "tints": {
+      "buttons": [0.0, 0.0, 0.7]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
