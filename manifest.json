@@ -1,30 +1,54 @@
 {
   "manifest_version": 3,
-  "version": "1.1",
+  "version": "1.2",
   "name": "Dark Theme",
   "description": "A sleek dark theme for Brave browser",
   "theme": {
     "colors": {
-      "frame": [30, 30, 30],
-      "frame_inactive": [30, 30, 30],
-      "frame_incognito": [30, 30, 30],
-      "frame_incognito_inactive": [30, 30, 30],
-      "toolbar": [55, 55, 55],
-      "tab_text": [220, 220, 220],
-      "tab_background_text": [150, 150, 150],
-      "bookmark_text": [200, 200, 200],
-      "ntp_background": [30, 30, 30],
-      "ntp_text": [220, 220, 220],
-      "omnibox_background": [30, 30, 30],
-      "omnibox_text": [220, 220, 220],
-      "toolbar_button_icon": [180, 180, 180],
-      "tab_background_text_inactive": [120, 120, 120]
+      "frame": [25, 25, 25],
+      "frame_inactive": [25, 25, 25],
+      "frame_incognito": [25, 25, 25],
+      "frame_incognito_inactive": [25, 25, 25],
+
+      "toolbar": [40, 40, 40],
+      "toolbar_text": [220, 220, 220],
+      "toolbar_button_icon": [170, 170, 170],
+      "toolbar_button_border": [55, 55, 55],
+      "toolbar_top_separator": [15, 15, 15],
+      "toolbar_bottom_separator": [15, 15, 15],
+      "toolbar_vertical_separator": [55, 55, 55],
+
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [155, 155, 155],
+      "tab_background_text_inactive": [100, 100, 100],
+      "tab_selected": [40, 40, 40],
+      "tab_line": [22, 22, 22],
+
+      "bookmark_text": [190, 190, 190],
+
+      "ntp_background": [22, 22, 22],
+      "ntp_text": [210, 210, 210],
+      "ntp_link": [130, 170, 255],
+      "ntp_header": [60, 60, 60],
+      "ntp_section": [30, 30, 30],
+      "ntp_section_text": [200, 200, 200],
+      "ntp_section_link": [130, 170, 255],
+
+      "omnibox_background": [12, 12, 12],
+      "omnibox_text": [200, 200, 200],
+      "omnibox_background_hovered": [18, 18, 18],
+      "omnibox_bubble_outline": [45, 45, 45],
+      "omnibox_text_dimmed": [110, 110, 110],
+
+      "button_background": [45, 45, 45],
+      "icons": [170, 170, 170]
     },
     "tints": {
-      "buttons": [0.0, 0.0, 0.7]
+      "buttons": [0.0, 0.0, 0.6]
     },
     "properties": {
-      "ntp_background_alignment": "bottom"
+      "ntp_background_alignment": "bottom",
+      "ntp_logo_alternate": 1
     }
   }
 }
